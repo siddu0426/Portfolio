@@ -1,4 +1,5 @@
 import React from 'react';
+import registration from './assets/registration.png';
 import {
   CodeBracketIcon,
   CpuChipIcon,
@@ -54,11 +55,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: 'Project Alpha',
-    description: 'A comprehensive project management tool designed to streamline team workflows and enhance productivity.',
-    image: 'https://picsum.photos/seed/alpha/600/400',
-    tags: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Tailwind CSS'],
-    liveUrl: '#',
+    title: 'Registration Portal',
+    description: 'Created a registration portal for our college where "150" teams have been registered, allowing users to view event details. The portal featured a responsive design and integrated with a mongodb database for secure data storage.',
+    image: 'https://drive.google.com/file/d/1fezFtI7ztFZItRxNVfq-ES_Ckbvizf-r/view?usp=sharing',
+    tags: ['Html', 'css', 'js', 'node.js', 'express', 'Mongodb', 'Vercel', 'Render'],
+    liveUrl: 'https://hackwithvizag.com',
     repoUrl: '#',
   },
   {
@@ -93,7 +94,7 @@ export const NAV_LINKS = [
 ];
 
 export const SOCIAL_LINKS = {
-  github: 'https://github.com',
-  linkedin: 'https://linkedin.com',
-  twitter: 'https://twitter.com'
+  github: 'https://github.com/siddu0426',
+  linkedin: 'https://www.linkedin.com/in/siddhartha-mylavarapu/',
+  twitter: 'https://x.com/Siddhar63378629'
 };
