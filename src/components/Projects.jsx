@@ -1,5 +1,5 @@
 import React from 'react';
-import { PROJECTS } from '../constants';
+import { PROJECTS } from '../constants.jsx';
 import { GithubIcon, ExternalLinkIcon } from './icons/SocialIcons';
 
 const Projects = () => {
