@@ -8,7 +8,7 @@ const Contact = () => {
         I'm currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, feel free to reach out. I'll get back to you as soon as possible!
       </p>
       <a
-        href="mailto:johndoe@email.com"
+        href="mailto:msvssiddhartha@gmail.com"
         className="inline-block bg-primary text-background font-medium py-3 px-8 rounded-md hover:bg-primary-hover transition-all duration-300 transform hover:scale-105"
       >
         Say Hello

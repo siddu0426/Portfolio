@@ -1,11 +1,19 @@
 import React from 'react';
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 import { SKILLS } from '../constants';
 
 const About = () => {
+    useEffect(() => {
+    Aos.init({ duration: 1000, once: true });
+  }, []);
+
+
   return (
-    <section id="about" className="py-24">
+    <section id="about" className="py-24 w-4xl mx-auto">
       <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
-      <div className="grid md:grid-cols-5 gap-12 items-center">
+      <div data-aos="fade-up" className="gap-12 text-center">
         {/* About Text */}
         <div className="md:col-span-3">
           <p className="text-muted leading-relaxed">
@@ -17,20 +25,6 @@ const About = () => {
           </p>
         </div>
 
-        {/* Skills Grid */}
-        <div className="md:col-span-2">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 gap-4">
-            {SKILLS.map((skill) => (
-              <div
-                key={skill.name}
-                className="bg-surface p-4 rounded-lg flex flex-col items-center justify-center gap-2 border border-muted/20 hover:border-primary/50 transition-all"
-              >
-                <div className="text-primary">{skill.icon}</div>
-                <span className="text-sm text-subtle">{skill.name}</span>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

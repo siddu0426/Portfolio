@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Skills from './components/Skills';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <main className="container mx-auto max-w-5xl px-6 sm:px-8">
         <Hero />
         <About />
+        <Skills />
         <Projects />
         <Contact />
       </main>

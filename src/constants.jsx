@@ -1,5 +1,8 @@
 import React from 'react';
-import registration from './assets/registration.png';
+import registration from './images/registration.png';
+import AcaVision from './images/AcaVision.png'; 
+import MovieSearchApp from './images/MovieSearchApp.png';
+
 import {
   CodeBracketIcon,
   CpuChipIcon,
@@ -10,14 +13,25 @@ import {
 } from './components/icons/TechIcons';
 
 export const SKILLS = [
-  { name: 'TypeScript', icon: <CodeBracketIcon className="w-8 h-8" /> },
-  { name: 'React', icon: <CodeBracketIcon className="w-8 h-8" /> },
-  { name: 'Node.js', icon: <CpuChipIcon className="w-8 h-8" /> },
+  { name: 'C', icon: <CodeBracketIcon className="w-8 h-8" /> },
+  { name: 'Java', icon: <CodeBracketIcon className="w-8 h-8" /> },
   { name: 'Python', icon: <CodeBracketIcon className="w-8 h-8" /> },
-  { name: 'GraphQL', icon: <CircleStackIcon className="w-8 h-8" /> },
-  { name: 'AWS', icon: <CloudIcon className="w-8 h-8" /> },
-  { name: 'Docker', icon: <WrenchScrewdriverIcon className="w-8 h-8" /> },
-  { name: 'Next.js', icon: <BoltIcon className="w-8 h-8" /> },
+  { name: 'SQL', icon: <CodeBracketIcon className="w-8 h-8" /> },
+  { name: 'HTML5', icon: <CodeBracketIcon className="w-8 h-8" /> },
+  { name: 'CSS3', icon: <CodeBracketIcon className="w-8 h-8" /> },
+  { name: 'JavaScript', icon: <CodeBracketIcon className="w-8 h-8" /> },
+  { name: 'React', icon: <CodeBracketIcon className="w-8 h-8" /> },
+  { name: 'Tailwind CSS', icon: <CodeBracketIcon className="w-8 h-8" /> },
+  { name: 'Node.js', icon: <CpuChipIcon className="w-8 h-8" /> },
+  { name: 'express.js', icon: <WrenchScrewdriverIcon className="w-8 h-8" /> },
+  { name: 'MongoDb', icon: <CircleStackIcon className="w-8 h-8" /> },
+  { name: 'MySQL', icon: <CloudIcon className="w-8 h-8" /> },
+  { name: 'firebase', icon: <BoltIcon className="w-8 h-8" /> },
+  { name: 'Git', icon: <CodeBracketIcon className="w-8 h-8" /> },
+  { name: 'GitHub', icon: <CodeBracketIcon className="w-8 h-8" /> },
+  { name: 'Vercel', icon: <CloudIcon className="w-8 h-8" /> },
+  { name: 'Render', icon: <CloudIcon className="w-8 h-8" /> },
+  { name: 'Clerk', icon: <WrenchScrewdriverIcon className="w-8 h-8" /> },
 ];
 
 export const EXPERIENCES = [
@@ -57,32 +71,26 @@ export const PROJECTS = [
   {
     title: 'Registration Portal',
     description: 'Created a registration portal for our college where "150" teams have been registered, allowing users to view event details. The portal featured a responsive design and integrated with a mongodb database for secure data storage.',
-    image: 'https://drive.google.com/file/d/1fezFtI7ztFZItRxNVfq-ES_Ckbvizf-r/view?usp=sharing',
-    tags: ['Html', 'css', 'js', 'node.js', 'express', 'Mongodb', 'Vercel', 'Render'],
+    image: "src/images/registration.png",
+    tags: ['Html', 'css', 'js', 'node.js', 'express', 'Mongodb', 'Vercel', 'Render', 'git', 'github'],
     liveUrl: 'https://hackwithvizag.com',
-    repoUrl: '#',
+    repoUrl: 'https://github.com/Lohith-Varma/Hack-with-Vizag-3.0',
   },
   {
-    title: 'Project Beta',
-    description: 'An e-commerce platform with a focus on user experience and performance, featuring a modern, clean design.',
-    image: 'https://picsum.photos/seed/beta/600/400',
-    tags: ['Next.js', 'GraphQL', 'Stripe', 'Vercel'],
-    liveUrl: '#',
+    title: 'AcaVision',
+    description: 'AcaVision is a smart academic management dashboard that streamlines event tracking and student participation with real-time analytics, built using React, Tailwind CSS.',
+    image: "src/images/AcaVision.png",
+    tags: ['React', 'Clerk', 'Tailwindcss', 'Vercel', 'git', 'github'],
+    liveUrl: 'https://aca-vision.vercel.app/',
+    repoUrl: 'https://github.com/siddu0426/AcaVision',
   },
   {
-    title: 'Project Gamma',
-    description: 'A data visualization dashboard that provides real-time insights from various data sources.',
-    image: 'https://picsum.photos/seed/gamma/600/400',
-    tags: ['React', 'D3.js', 'Firebase', 'Python'],
-    repoUrl: '#',
-  },
-  {
-    title: 'Project Delta',
-    description: 'A mobile-first social networking application for connecting people with shared interests and hobbies.',
-    image: 'https://picsum.photos/seed/delta/600/400',
-    tags: ['React Native', 'AWS Amplify', 'GraphQL'],
-    liveUrl: '#',
-    repoUrl: '#',
+    title: 'Movie Search Application',
+    description: 'An application build using omdb api to search for movies and view details about them. The app features a responsive design and allows users to save their favorite movies to a watchlist.',
+    image: 'src/images/MovieSearchApp.png',
+    tags: ['Html', 'css', 'js', 'api', 'git', 'github', 'vercel'],
+    liveUrl: 'https://movie-search-application-eta.vercel.app/',
+    repoUrl: 'https://github.com/siddu0426/full-stack-dev/tree/main/Movie%20app%20using%20API',
   },
 ];
 

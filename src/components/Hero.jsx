@@ -9,8 +9,8 @@ const Hero = () => {
       className="min-h-screen flex flex-col justify-center text-center md:text-left py-20"
     >
       <div className="max-w-3xl">
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-gradient-to-r from-text to-subtle text-transparent bg-clip-text">
-          John Doe
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-gradient-to-r from-text to-subtle bg-clip-text">
+          Siddhartha Mylavarapu
         </h1>
         <h2 className="mt-3 text-2xl md:text-4xl font-semibold text-subtle">
           Software Developer & Creative Coder
@@ -49,11 +49,18 @@ const Hero = () => {
 
         <div className="mt-10">
           <a
-            href="#contact"
+            href="/resume.pdf"
+            target='_blank'
+            rel="noopener noreferrer"
             className="inline-block bg-primary text-background font-medium py-3 px-8 rounded-md hover:bg-primary-hover transition-all duration-300 transform hover:scale-105"
           >
-            Get In Touch
+            Resume
           </a>
+          <button className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:cursor-pointer transition-all duration-300 ease-in-out transform hover:scale-105">
+            <a href="#contact">
+              Hire Me
+            </a>
+          </button>
         </div>
       </div>
     </section>
