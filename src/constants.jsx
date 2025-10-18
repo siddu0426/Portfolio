@@ -1,7 +1,7 @@
 import React from 'react';
-import registration from './images/registration.png';
-import AcaVision from './images/AcaVision.png'; 
-import MovieSearchApp from './images/MovieSearchApp.png';
+// import registration from 'public/images/registration.png';
+// import AcaVision from 'public/images/AcaVision.png'; 
+// import MovieSearchApp from 'public/images/MovieSearchApp.png';
 
 import {
   CodeBracketIcon,
@@ -71,7 +71,7 @@ export const PROJECTS = [
   {
     title: 'Registration Portal',
     description: 'Created a registration portal for our college where "150" teams have been registered, allowing users to view event details. The portal featured a responsive design and integrated with a mongodb database for secure data storage.',
-    image: "src/images/registration.png",
+    image: "images/registration.png",
     tags: ['Html', 'css', 'js', 'node.js', 'express', 'Mongodb', 'Vercel', 'Render', 'git', 'github'],
     liveUrl: 'https://hackwithvizag.com',
     repoUrl: 'https://github.com/Lohith-Varma/Hack-with-Vizag-3.0',
@@ -79,7 +79,7 @@ export const PROJECTS = [
   {
     title: 'AcaVision',
     description: 'AcaVision is a smart academic management dashboard that streamlines event tracking and student participation with real-time analytics, built using React, Tailwind CSS.',
-    image: "src/images/AcaVision.png",
+    image: "images/AcaVision.png",
     tags: ['React', 'Clerk', 'Tailwindcss', 'Vercel', 'git', 'github'],
     liveUrl: 'https://aca-vision.vercel.app/',
     repoUrl: 'https://github.com/siddu0426/AcaVision',
@@ -87,7 +87,7 @@ export const PROJECTS = [
   {
     title: 'Movie Search Application',
     description: 'An application build using omdb api to search for movies and view details about them. The app features a responsive design and allows users to save their favorite movies to a watchlist.',
-    image: 'src/images/MovieSearchApp.png',
+    image: 'images/MovieSearchApp.png',
     tags: ['Html', 'css', 'js', 'api', 'git', 'github', 'vercel'],
     liveUrl: 'https://movie-search-application-eta.vercel.app/',
     repoUrl: 'https://github.com/siddu0426/full-stack-dev/tree/main/Movie%20app%20using%20API',
