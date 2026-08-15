@@ -49,7 +49,7 @@ const Hero = () => {
 
         <div className="mt-10">
           <a
-            href="/resume.pdf"
+            href="/Siddhartha_Mylavarapu_Resume.docx"
             target='_blank'
             rel="noopener noreferrer"
             className="inline-block bg-primary text-background font-medium py-3 px-8 rounded-md hover:bg-primary-hover transition-all duration-300 transform hover:scale-105"

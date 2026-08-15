@@ -34,7 +34,7 @@ export const PERSONAL_INFO = {
   github: "https://github.com/siddu0426",
   linkedin: "https://www.linkedin.com/in/siddhartha-mylavarapu/",
   twitter: "https://x.com/Siddhar63378629",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Siddhartha_Mylavarapu_Resume.docx",
   aboutParagraphs: [
     "I'm a passionate Software Developer with a knack for creating elegant solutions in the least amount of time. I have extensive experience in building scalable web applications with modern technology stacks. My journey in software development started with a deep curiosity for how things work, and it has evolved into a career where I can build, innovate, and solve complex problems.",
     "When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and mentoring aspiring developers. I'm always eager to learn and take on new challenges."
